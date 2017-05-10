@@ -1,7 +1,7 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '9.0'
 
-#pod 'HockeySDK', '~> 4.1'
+pod 'HockeySDK', '~> 4.1.5'
 pod 'MobileCenter'
 
 target 'TestApp' do

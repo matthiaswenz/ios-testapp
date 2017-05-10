@@ -1,14 +1,24 @@
 PODS:
-  - HockeySDK (4.1.4):
-    - HockeySDK/DefaultLib (= 4.1.4)
-  - HockeySDK/DefaultLib (4.1.4)
+  - HockeySDK (4.1.5):
+    - HockeySDK/DefaultLib (= 4.1.5)
+  - HockeySDK/DefaultLib (4.1.5)
+  - MobileCenter (0.8.0):
+    - MobileCenter/MobileCenterAnalytics (= 0.8.0)
+    - MobileCenter/MobileCenterCrashes (= 0.8.0)
+  - MobileCenter/MobileCenter (0.8.0)
+  - MobileCenter/MobileCenterAnalytics (0.8.0):
+    - MobileCenter/MobileCenter
+  - MobileCenter/MobileCenterCrashes (0.8.0):
+    - MobileCenter/MobileCenter
 
 DEPENDENCIES:
-  - HockeySDK (~> 4.1)
+  - HockeySDK (~> 4.1.5)
+  - MobileCenter
 
 SPEC CHECKSUMS:
-  HockeySDK: 78a3f8bb9100277b531defc56c970369a3ca267a
+  HockeySDK: 606b537bbfbe454ee440e92cc93bc634b3c77151
+  MobileCenter: b61ad8338b34ad7a61a55dd5f6b1285d74c1ccf8
 
-PODFILE CHECKSUM: a721f01f29b966a0737868599ded648a0b2470b8
+PODFILE CHECKSUM: abaf4145a5f899194efb756eeaa5647259516957
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.2.1
